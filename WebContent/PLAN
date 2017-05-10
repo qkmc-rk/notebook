@@ -1,0 +1,36 @@
+			   
+			                                       	[写日记网站]
+			   
+			   (welcome.html)--->(notice.jsp)
+    				 |
+    				 |<--------------|
+				 (login.jsp)------>(register.jsp)
+				     |
+				     |                |--------->mydiary.jsp
+ center.jsp<-----index.jsp------->view.jsp--------->frddiary.jsp   
+	  buddy.jsp<-----|
+	  				 |-------->note.jsp
+	  				 
+括号中为公共内容
+
+> welcome.html : 欢迎页面
+> notice.jsp   : 公告页面
+> login.jsp    : 登录页面
+> register.jsp : 注册页面
+> index.jsp    : 用户主页
+> view.jsp     : 查看日记主页
+> center.jsp   : 个人中心
+> mydiary.jsp  : 查看个人日记
+> frddiary.jsp : 查看好友日记
+> buddy.jsp    : 好友管理
+> note.jsp     : 编写日记
+
+请求:
+login.do 
+regist.do
+center.do
+buddy.do
+note.do
+view.do
+mydiary.do
+frddiary.do
