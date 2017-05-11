@@ -15,10 +15,9 @@ public class Diary {
 	}
 	
 	
-	public Diary(int diaryId,int userId, int year, int month, int day, int week, 
+	public Diary(int userId, int year, int month, int day, int week, 
 			String weather, String content,String contenType) {
 		super();
-		this.diaryId = diaryId;
 		this.userId = userId;
 		this.year = year;
 		this.month = month;

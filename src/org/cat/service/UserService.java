@@ -49,6 +49,12 @@ public interface UserService {
 	 * 
 	 * */
 	List<User> findSomeUsers(List<Integer> userIds);
+	
+	/*
+	 * Í¨¹ýuserIdÕÒµ½userName
+	 * 
+	 * */
+	String getUserName(int userId);
 }
 
 

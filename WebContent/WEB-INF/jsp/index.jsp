@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>Insert title here</title>
+<title>个人主页</title>
 </head>
 <body>
 	<h1><a href="center.do"><%=(String)session.getAttribute("useraccount")%></a>,你已成功登录</h1>

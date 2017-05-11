@@ -63,7 +63,7 @@ public class DiaryDaoImpl implements DiaryDao {
 			list.add(diary);
 		}
 		//DBConnection.closeConnection();
-		if(list.isEmpty()) return null;
+		//不需要判空,没有查到说明用户没有日记
 		return list;
 	}
 

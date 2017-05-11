@@ -18,7 +18,11 @@
 				</p>
 				<p>
 					<label for="week">星期</label>
-					<input type="number" name="week" id="week" value="" max="7"	min="1" />
+					<input type="number" name="week" id="week" value="1" max="7"	min="1" />
+				</p>
+				<p>
+					<label for="weather">天气</label>
+					<input type="text" name="weather" id="weather" value=""/>
 				</p>
 				<p>
 					<label for="type">日记类型</label>
@@ -31,6 +35,13 @@
 				<input type="submit" value="提交日记"/>
 			</form>			
 		</fieldset>
+		<input type="button" value="测试日期" onclick="func1()">
+		<script type="text/javascript">
+			function func1(){
+				var dv = document.getElementById("date");
+				alert(dv.value);
+			}
+		</script>
 	</body>
-</html>y>
+</html>
 </html>

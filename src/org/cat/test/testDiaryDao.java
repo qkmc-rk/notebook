@@ -30,7 +30,7 @@ public class testDiaryDao {
 	
 	@Test
 	public void m2() throws SQLException{
-		Diary diary = new Diary(1,1,1,1,1,1,"q","asdasdasd","dfsf");
+		Diary diary = new Diary(1,1,1,1,1,"q","asdasdasd","dfsf");
 		dd = new DiaryDaoImpl();
 		if(dd.addARecord(diary)){
 			System.out.println("[INFO] success--->add a diary");

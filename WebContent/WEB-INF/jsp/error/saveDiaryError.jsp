@@ -4,10 +4,9 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>准备查看日记吗?</title>
+<title>Big Error</title>
 </head>
 <body>
-	<h1><a href="mydiary.do">查看我的日记</a><small>我的日记没毒,好看</small></h1>
-	<h1><a href="frddiary.do">查看好友日记</a><small>好友的日记一般来说是有毒的</small></h1>
+	<h1>保存日记的时候出了一个大型错误,可怕!!</h1>
 </body>
 </html>

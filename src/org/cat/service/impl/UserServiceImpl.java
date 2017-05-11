@@ -100,4 +100,16 @@ public class UserServiceImpl implements UserService {
 		List<User> users = userDao.findSomeUsers(userIds);
 		return users;
 	}
+
+	@Override
+	public String getUserName(int userId) {
+		try {
+			User user = userDao.findByUserId(userId);
+			String userName = user.getUserName();
+			return userName;
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+		return null;
+	}
 }

@@ -40,11 +40,9 @@ public class BuddyServlet extends HttpServlet {
 		HttpSession session = request.getSession();
 		//System.out.println("空指针?[INFO]-->"+((User)session.getAttribute("userInfo")).getUserId());
 		//先进行判断用户信息是否存在,因为登录后并没有查询单个用户的所有信息
-		if(session.getAttribute("userInfo") == null){
-			String userAccount = (String) session.getAttribute("useraccount");
-			User user = us.findUserInfo(userAccount);
-			session.setAttribute("userInfo", user);
-		}
+		String userAccount = (String) session.getAttribute("useraccount");
+		User user = us.findUserInfo(userAccount);
+		session.setAttribute("userInfo", user);
 		int userId = ((User)session.getAttribute("userInfo")).getUserId();
 		List<UserFriend> list = us.getAllFriend(userId);//拿到了好友的所有Id,通过id找到好友的对象信息
 		List<Integer> ufIdList = null;
